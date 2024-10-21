@@ -9,6 +9,6 @@ time = 11.8--> litres = 5
 */
 public class KeepHydrated  {
   public int Liters(double time)  {
-    return (int) Math.round(time*0.5);
+    return (int) Math.floor(time/2);
   }
 }
